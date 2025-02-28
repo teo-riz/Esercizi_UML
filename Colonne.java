@@ -45,12 +45,22 @@ public class Colonne {
         }
     }
 
-    public Torre getTorre1() {
-        return torre1;
-    }
+public void vittoria(){
+        try{
+            torre1.vittoria();
+            torre2.vittoria();
+            torre3.vittoria();
+        }catch (IndexOutOfBoundsException e ){
+
+        }
+
+}
 
     public void stampa (){
-        
+torre1.stampa();
+torre2.stampa();
+torre3.stampa();
+
 
     }
 

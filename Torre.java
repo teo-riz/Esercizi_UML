@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Torre {
@@ -31,7 +32,11 @@ public class Torre {
 
     }
 
-
+public void vittoria(){
+        if (lista.get(0).getGrandezza() == 1 &&lista.get(1).getGrandezza() == 2 && lista.get(2).getGrandezza() == 3){
+            System.out.println("   HAI VINTOOOOO !!!! ");
+        }
+}
 
     public void stampa (){
         for (int i = lista.size() -1 ; i >= 0 ; i -- ){
