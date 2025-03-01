@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 
 public class Colonne {
     private Torre torre1 ;
